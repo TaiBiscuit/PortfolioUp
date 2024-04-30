@@ -291,3 +291,60 @@ nav{
 .projects{
   height: 90vh;
 }
+
+
+.rest-projects{
+  padding: 0px;
+  margin: 50px 0px 0px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 15px;
+  position: relative;
+}
+
+.rest-project-box{
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  height: 100%;
+  padding: 2rem 1.75rem;
+  border-radius: 5px;
+  background-color: #112240;
+  transition: all .25s ease;;
+  overflow: auto;
+  display: flex;
+  -moz-box-pack: justify;
+  justify-content: space-between;
+}
+
+.rest-project-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+.rest-links{
+  display: flex;
+}
+
+.rest-project-title{
+  font-size: 22px;
+  margin-bottom: 15px;
+  color: #ccd6f6;
+}
+
+.rest-project-desc{
+  text-align: start;
+  color: #a8b2d1;
+}
+
+.rest-project-tech{
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  gap: 20px;
+  color: #a8b2d1;
+  margin-top: 1.5rem;
+}

@@ -7,20 +7,63 @@ export const Projects = () => {
         <div>
         <div className="sep" id='projects'></div>  
             <div className="div-content projects">
-                <h2 className="section-sub">- Projects
-                </h2>
-                <div className="about-rest">
-                    <div className="about-txt">
-                        <div className='about-txt-section'>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium amet porro dignissimos laboriosam similique! Asperiores corporis dolores beatae laborum, ex hic est harum quo reiciendis similique laudantium cumque rerum ipsum?
-                        Eius quia repellat voluptatum officia doloribus rerum labore obcaecati necessitatibus omnis dolorem expedita praesentium nulla maxime adipisci officiis facilis repudiandae dicta nobis reprehenderit modi velit eum dignissimos, deserunt ut. Facilis.</p>
+                <h2 className="section-sub">- Projects</h2>
+                <p>Being a blablabla</p>
+                <h2 className="section-sub-3">- Check out my main Projects</h2>
+                <div className="main-projects">
+
+                </div>
+                <h2 className='section-sub-3'>Other Stuff</h2>
+                <div className="rest-projects">
+                    <div className="rest-project-box">
+                        <div className="rest-project-header">
+                            <p>ICON</p>
+                            <div className="rest-links">
+                                <a href="https://taibiscuit.github.io/FM-Advice-generator-app/">Live</a>
+                                <a href="https://github.com/TaiBiscuit/FM-Advice-generator-app/blob/main/script.js">Github</a>
+                            </div>
                         </div>
-                        <div className='about-txt-section'>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium amet porro dignissimos laboriosam similique! Asperiores corporis dolores beatae laborum, ex hic est harum quo reiciendis similique laudantium cumque rerum ipsum?
-                        Eius quia repellat voluptatum officia doloribus rerum labore obcaecati necessitatibus omnis dolorem expedita praesentium nulla maxime adipisci officiis facilis repudiandae dicta nobis reprehenderit modi velit eum dignissimos, deserunt ut. Facilis.
-                        </p>
+                        <h1 className="rest-project-title">Advice Generator</h1>
+                        <p className="rest-project-desc">A single page app that uses the Advice Slip's API to generate random advices.</p>
+                        <div className="rest-project-tech">
+                            <p>Javascript</p>
+                            <p>CSS</p>
+                            <p>HTML</p>
                         </div>
                     </div>
+                    <div className="rest-project-box">
+                        <div className="rest-project-header">
+                            <p>ICON</p>
+                            <div className="rest-links">
+                                <a href="https://taibiscuit.github.io/FM-Advice-generator-app/">Live</a>
+                                <a href="https://github.com/TaiBiscuit/FM-Advice-generator-app/blob/main/script.js">Github</a>
+                            </div>
+                        </div>
+                        <h1 className="rest-project-title">Advice Generator</h1>
+                        <p className="rest-project-desc">A single page app that uses the Advice Slip's API to generate random advices.</p>
+                        <div className="rest-project-tech">
+                            <p>Javascript</p>
+                            <p>CSS</p>
+                            <p>HTML</p>
+                        </div>
+                    </div>
+                    <div className="rest-project-box">
+                        <div className="rest-project-header">
+                            <p>ICON</p>
+                            <div className="rest-links">
+                                <a href="https://taibiscuit.github.io/FM-Advice-generator-app/">Live</a>
+                                <a href="https://github.com/TaiBiscuit/FM-Advice-generator-app/blob/main/script.js">Github</a>
+                            </div>
+                        </div>
+                        <h1 className="rest-project-title">Advice Generator</h1>
+                        <p className="rest-project-desc">A single page app that uses the Advice Slip's API to generate random advices.</p>
+                        <div className="rest-project-tech">
+                            <p>Javascript</p>
+                            <p>CSS</p>
+                            <p>HTML</p>
+                        </div>
+                    </div>
+                    
                 </div>
             </div>
         </div>
