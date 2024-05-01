@@ -380,3 +380,62 @@ nav{
   width: 25px;
   height: 25px;
 }
+
+
+
+
+/* CONTACT */
+
+.contact-rest{
+  height: 100vh;
+}
+
+.contact-top{
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-top-icon{
+  color: #ccd6f6;
+  width: 70px;
+  height: 70px;
+  transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
+}
+
+.contact-top-icon:hover{
+  color: #64ffda;
+}
+
+.contact-bottom-title{
+  margin-bottom: 2rem;
+  font-size: 20px;
+  color: #ccd6f6;
+}
+
+.contact-bottom-ul{
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.contact-link{
+  transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
+}
+
+.contact-icon{
+  color: #ccd6f6;
+  transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
+}
+
+.contact-txt{
+  transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
+  color: #0a192f;
+}
+
+.contact-link:hover .contact-txt, .contact-link:hover .contact-icon{
+  color: #64ffda;
+}

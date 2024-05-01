@@ -1,4 +1,7 @@
 import React from 'react';
+import { MdMail } from "react-icons/md";
+import { BsGithub } from "react-icons/bs"; 
+import { ImLinkedin } from "react-icons/im";
 
 export const Contact = () => {
 
@@ -9,18 +12,39 @@ export const Contact = () => {
             <div className="div-content projects">
                 <h2 className="section-sub">- Get in touch
                 </h2>
-                <div className="about-rest">
-                    <div className="about-txt">
-                        <div className='about-txt-section'>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium amet porro dignissimos laboriosam similique! Asperiores corporis dolores beatae laborum, ex hic est harum quo reiciendis similique laudantium cumque rerum ipsum?
-                        Eius quia repellat voluptatum officia doloribus rerum labore obcaecati necessitatibus omnis dolorem expedita praesentium nulla maxime adipisci officiis facilis repudiandae dicta nobis reprehenderit modi velit eum dignissimos, deserunt ut. Facilis.</p>
-                        </div>
-                        <div className='about-txt-section'>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium amet porro dignissimos laboriosam similique! Asperiores corporis dolores beatae laborum, ex hic est harum quo reiciendis similique laudantium cumque rerum ipsum?
-                        Eius quia repellat voluptatum officia doloribus rerum labore obcaecati necessitatibus omnis dolorem expedita praesentium nulla maxime adipisci officiis facilis repudiandae dicta nobis reprehenderit modi velit eum dignissimos, deserunt ut. Facilis.
-                        </p>
+                <div className="contact-rest">
+                    <div className="contact-top">
+                        <div className='contact-main-section'>
+                        <p className='contact-bottom-title'>Send me an e-mail</p>
+                        <div className="contact-link">
+                            <a href="mailto: nicolas.l.campos1@gmail.com" className="contact-link" target="_blank">
+                                <MdMail size={50} className="contact-top-icon"/> 
+                            </a></div>
                         </div>
                     </div>
+                    <div className='contact-bottom'>
+                            <p className='contact-bottom-title'>I am also in:</p>
+                            <ul className="contact-bottom-ul">
+                                <li><div className="contact-link">
+                                    <a href="https://github.com/TaiBiscuit" className="contact-link" target="_blank">
+                                    <BsGithub size={50} className="contact-icon"/> 
+                                    </a>
+                                    <p className="contact-txt" >TaiBiscuit</p>
+                                    </div>
+                                </li>
+                                <li> 
+                                    <div className="contact-link">
+                                        <a href="https://www.linkedin.com/in/nicolas-cam-pos/" className="contact-link" target="_blank">
+                                            <ImLinkedin size={50} className="contact-icon" /> 
+                                        </a>
+                                        <p className="contact-txt"> Nicolás Campos </p>
+                                    </div>
+                                </li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                            </ul>
+                        </div>
                 </div>
             </div>
         </div>

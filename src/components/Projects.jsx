@@ -23,6 +23,7 @@ export const Projects = () => {
             return response.json();
         })
         .then(function(myJson){
+            console.log(myJson[0].tech)
             setSideData(myJson);
         });
     };
@@ -62,9 +63,7 @@ export const Projects = () => {
                                             <p className="rest-project-desc">{project.description}</p>
                                             <div className="rest-project-tech">
                                                 {
-                                                    project.tech.forEach((tech) => {
-                                                        <p>{tech}</p>
-                                                    })
+
                                                 }
                                                 <p>Javascript</p>
                                                 <p>CSS</p>
