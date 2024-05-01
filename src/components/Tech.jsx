@@ -23,14 +23,6 @@ export const Tech = () => {
         <div className="tech">
             <div className="div-content">
             <h2 className="section-sub-2">- Technology I use</h2>
-{/*                 <ul className='tech-ul'>
-                    <li className='tech-list'>JavaScript</li>
-                    <li className='tech-list'>React Js</li>
-                    <li className='tech-list'>Java</li>
-                    <li className='tech-list'>Python</li>
-                    <li className='tech-list'>Mongo DB</li>
-                    <li className='tech-list'>MySql</li>
-                </ul> */}
                 <div className="tech-box">
                 {
                 data && data.length>0 && data.map((item) =>{

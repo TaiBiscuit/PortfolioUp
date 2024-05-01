@@ -1,0 +1,37 @@
+[
+    {
+        "id":1,
+        "key":30,
+        "title":"Advice Generator",
+        "description":"A single page app that uses the Advice Slip's API to generate random advices.",
+        "live":"https://taibiscuit.github.io/FM-Advice-generator-app/",
+        "github":"https://taibiscuit.github.io/FM-Advice-generator-app/",
+        "tech":[
+            "Javascript",
+            "CSS"
+        ]
+    },
+    {
+        "id":2,
+        "key":31,
+        "title":"E-Commerce",
+        "description":"Blablablablablablablablabla",
+        "live":"https://nico-ecommerce.netlify.app/",
+        "github":"https://github.com/TaiBiscuit/E-Commerce",
+        "tech":[
+            "Javascript"
+        ]
+    },
+    {
+        "id":3,
+        "key":32,
+        "title":"Piano",
+        "description":"Blablablablablablablablabla",
+        "live":"https://taibiscuit.github.io/Piano-Js/",
+        "github":"https://github.com/TaiBiscuit/Piano-Js",
+        "tech":[
+            "Javascript",
+            "CSS"
+        ]
+    }
+]
