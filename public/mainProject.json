@@ -1,3 +1,39 @@
 [
-    
+    {
+        "id":1,
+        "key":1,
+        "title":"Chat App",
+        "description":"Blablablablablablablablabla",
+        "live":"https://nico-chat-app.netlify.app/",
+        "github":"https://github.com/TaiBiscuit/Chat-App",
+        "tech":[
+            "React Js",
+            "Tailwind",
+            "Firebase"
+        ]
+    },
+    {
+        "id":2,
+        "key":2,
+        "title":"Screen Recorder",
+        "description":"Blablablablablablablablabla",
+        "live":"https://taibiscuit.github.io/recorder-download-page/",
+        "github":"https://github.com/TaiBiscuit/recorder-download-page",
+        "tech":[
+            "Electron",
+            "Javascript"
+        ]
+    },
+    {
+        "id":3,
+        "key":3,
+        "title":"Hotel Landing Page",
+        "description":"Blablablablablablablablabla",
+        "live":"https://hotelwebdemo.netlify.app/",
+        "github":"https://github.com/TaiBiscuit/HotelDemos",
+        "tech":[
+            "React Js",
+            "CSS"
+        ]
+    }
 ]

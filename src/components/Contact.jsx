@@ -40,9 +40,6 @@ export const Contact = () => {
                                         <p className="contact-txt"> Nicolás Campos </p>
                                     </div>
                                 </li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
                             </ul>
                         </div>
                 </div>

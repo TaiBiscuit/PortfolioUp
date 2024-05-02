@@ -19,7 +19,9 @@
         "live":"https://nico-ecommerce.netlify.app/",
         "github":"https://github.com/TaiBiscuit/E-Commerce",
         "tech":[
-            "Javascript"
+            "React",
+            "Tailwind",
+            "Firebase"
         ]
     },
     {

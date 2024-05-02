@@ -42,7 +42,12 @@ export const Projects = () => {
                 <p>Being a blablabla</p>
                 <h2 className="section-sub-3">- Check out my main Projects</h2>
                 <div className="main-projects">
-
+                    <div className="main-project-box">
+                        <div className="left-side"></div>
+                        <div className="right-side">
+                            <div className="main-project-header">Chat App</div>
+                        </div>
+                    </div>
                 </div>
                 <h2 className='section-sub-3'>Other Stuff</h2>
                 <div className="rest-projects">
@@ -62,12 +67,15 @@ export const Projects = () => {
                                             <h1 className="rest-project-title">{project.title}</h1>
                                             <p className="rest-project-desc">{project.description}</p>
                                             <div className="rest-project-tech">
-                                                {
-
+                                                {   
+                                                    project.tech.map((tech) => {
+                                                        return(
+                                                            <>
+                                                                <p>{tech}</p>
+                                                            </>
+                                                        )
+                                                    })
                                                 }
-                                                <p>Javascript</p>
-                                                <p>CSS</p>
-                                                <p>HTML</p>
                                             </div>
                                         </div>
                                     </a>
@@ -75,39 +83,9 @@ export const Projects = () => {
                             )
                         })
                     }
-{/*                 <a href="https://taibiscuit.github.io/FM-Advice-generator-app/" target='_blank'>
-                    <div className="rest-project-box">
-                        <div className="rest-project-header">
-                            <p><FaFolder /></p>
-                            <div className="rest-links">
-                                <a href="https://github.com/TaiBiscuit/FM-Advice-generator-app/blob/main/script.js" target='_blank'><FiGithub /></a>
-                                <a href="https://taibiscuit.github.io/FM-Advice-generator-app/" target='_blank'><RiExternalLinkLine /></a>
-                            </div>
-                        </div>
-                        <h1 className="rest-project-title">Advice Generator</h1>
-                        <p className="rest-project-desc">A single page app that uses the Advice Slip's API to generate random advices.</p>
-                        <div className="rest-project-tech">
-                            <p>Javascript</p>
-                            <p>CSS</p>
-                            <p>HTML</p>
-                        </div>
-                    </div>
-                </a> */}
                 </div>
             </div>
         </div>
         </>
-            /*     {
-        "id":1,
-        "key":30,
-        "title":"",
-        "description":"",
-        "live":"",
-        "github":"",
-        "tech":[
-            "Javascript",
-            "CSS"
-        ]
-    } */
     );
 };
