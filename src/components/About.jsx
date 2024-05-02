@@ -12,14 +12,12 @@ export const About = () => {
                 <div className="about-rest">
                     <div className="about-txt">
                         <div className='about-txt-section'>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium amet porro dignissimos laboriosam similique! Asperiores corporis dolores beatae laborum, ex hic est harum quo reiciendis similique laudantium cumque rerum ipsum?
-                        Eius quia repellat voluptatum officia doloribus rerum labore obcaecati necessitatibus omnis dolorem expedita praesentium nulla maxime adipisci officiis facilis repudiandae dicta nobis reprehenderit modi velit eum dignissimos, deserunt ut. Facilis.</p>
+                        <p>Hello! My name is Nico, a Frontend developer from Argentina. I am a Computer Science student at UBA (Universidad de Buenos Aires) and learning Fullstack development on my own. I can speak Spanish at a native level, and Japanese at an intermediate level. I consider myself highly adaptable, motivated, responsible and well organized person who is always open to learn new technologies.</p>
                         </div>
-                        <div className='about-txt-section'>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium amet porro dignissimos laboriosam similique! Asperiores corporis dolores beatae laborum, ex hic est harum quo reiciendis similique laudantium cumque rerum ipsum?
-                        Eius quia repellat voluptatum officia doloribus rerum labore obcaecati necessitatibus omnis dolorem expedita praesentium nulla maxime adipisci officiis facilis repudiandae dicta nobis reprehenderit modi velit eum dignissimos, deserunt ut. Facilis.
+{/*                         <div className='about-txt-section'>
+                        <p>Hello! My name is Nico, a Frontend developer from Argentina. I am a Computer Science student at UBA (Universidad de Buenos Aires) and learning Fullstack development on my own. I can speak Spanish at a native level, and Japanese at an intermediate level. I consider myself highly adaptable, motivated, responsible and well organized person who is always open to learn new technologies.
                         </p>
-                        </div>
+                        </div> */}
                     </div>
                     <img src="https://avatars.githubusercontent.com/u/113484831?v=4" alt="" className='about-img'/>
                 </div>

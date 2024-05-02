@@ -287,7 +287,7 @@ nav{
 
 /* PROJECTS */
 
-.main-projects {  
+/* .main-projects {  
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
@@ -298,19 +298,28 @@ nav{
     "left-side-1 right-side-1"
     "left-side-2 right-side-2"
     "left-side-3 right-side-3";
+} */
+
+.main-projects{
+  display: flex;
+  flex-direction: column;
+  margin: 3rem 0;
 }
 
-
-.left-side-2, .right-side-1, .right-side-3{
+.project-1, .project-2, .project-3{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
   transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
 }
 
-.left-side-1 { 
-  grid-area: left-side-1; 
+.left-side-1, .left-side-2, .left-side-3, .right-side-1, .right-side-2, .right-side-3 { 
+  width: 50%;
+  margin-bottom: 2rem;
+  transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
 }
 
 .left-side-2 { 
-  grid-area: left-side-2; 
   position: relative;
   background-color: #233554;
   padding: 1rem 2rem;
@@ -318,12 +327,8 @@ nav{
   border-bottom-left-radius: 7px;
 }
 
-.left-side-3 { 
-  grid-area: left-side-3; 
-}
 
-.right-side-1 { 
-  grid-area: right-side-1; 
+.right-side-1 {  
   position: relative;
   background-color: #233554;
   padding: 1rem 2rem;
@@ -331,18 +336,25 @@ nav{
   border-bottom-right-radius: 7px;
 }
 
-.right-side-2 { 
-  grid-area: right-side-2; 
-}
 
 .right-side-3 { 
-  grid-area: right-side-3; 
   position: relative;
   background-color: #233554;
   padding: 1rem 2rem;
   border-top-right-radius: 7px;
   border-bottom-right-radius: 7px;
 }
+
+.right-side-1, .left-side-2, .right-side-3{
+  visibility: hidden;
+  opacity: 0;
+}
+
+.project-1:hover .right-side-1, .project-2:hover .left-side-2, .project-3:hover .right-side-3{
+  visibility: visible;
+  opacity: 1;
+}
+
 
 .main-project-header{
   font-size: 20px;
