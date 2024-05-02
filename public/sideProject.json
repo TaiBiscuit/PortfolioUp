@@ -15,7 +15,7 @@
         "id":2,
         "key":31,
         "title":"E-Commerce",
-        "description":"Blablablablablablablablabla",
+        "description":"E-commerce simulation with firebase for auth and Fake Store API",
         "live":"https://nico-ecommerce.netlify.app/",
         "github":"https://github.com/TaiBiscuit/E-Commerce",
         "tech":[
@@ -28,7 +28,7 @@
         "id":3,
         "key":32,
         "title":"Piano",
-        "description":"Blablablablablablablablabla",
+        "description":"Piano simulation with a simple sound record memory.",
         "live":"https://taibiscuit.github.io/Piano-Js/",
         "github":"https://github.com/TaiBiscuit/Piano-Js",
         "tech":[
