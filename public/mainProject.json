@@ -3,7 +3,8 @@
         "id":1,
         "key":1,
         "title":"Chat App",
-        "description":"Blablablablablablablablabla",
+        "description":"Online chat application using Firebase as the database for the messages.",
+        "img":"https://i.ibb.co/6FFtrkk/ChatApp.png",
         "live":"https://nico-chat-app.netlify.app/",
         "github":"https://github.com/TaiBiscuit/Chat-App",
         "tech":[
@@ -16,7 +17,8 @@
         "id":2,
         "key":2,
         "title":"Screen Recorder",
-        "description":"Blablablablablablablablabla",
+        "description":"Screen recorder made with Electron which allows you to choose the output of the recorder data.",
+        "img":"https://i.ibb.co/f88488d/start.png%20alt=",
         "live":"https://taibiscuit.github.io/recorder-download-page/",
         "github":"https://github.com/TaiBiscuit/recorder-download-page",
         "tech":[
@@ -28,7 +30,8 @@
         "id":3,
         "key":3,
         "title":"Hotel Landing Page",
-        "description":"Blablablablablablablablabla",
+        "description":"Landing page for a mock-up hotel made in React with multiple handeling multiple languages.",
+        "img":"https://i.ibb.co/br8Vcfm/hotela.png",
         "live":"https://hotelwebdemo.netlify.app/",
         "github":"https://github.com/TaiBiscuit/HotelDemos",
         "tech":[
