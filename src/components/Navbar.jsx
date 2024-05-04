@@ -6,7 +6,7 @@ export const Navbar = () => {
         <>
         <nav>
             <div className="nav-content">
-                <p>ICON</p>
+                <img src="./icon2.png" alt='Icon' className='nav-icon'/>
                 <div className="nav-ol">
                     <ol>
                         <a href="#about" className='nav-a'>About me</a>
