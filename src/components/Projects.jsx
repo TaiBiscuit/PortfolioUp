@@ -55,6 +55,13 @@ export const Projects = () => {
                                 </div>
                                 <div className="right-side-1">
                                 <div className="right-content-1">
+                                <div className="main-project-header-icon">
+                                                <p><FaFolder /></p>
+                                                <div className="main-links">
+                                                    <a href={mainData[0].github} target='_blank'><FiGithub /></a>
+                                                    <a href={mainData[0].live} target='_blank'><RiExternalLinkLine /></a>
+                                                </div>
+                                            </div>
                                     <div className="main-project-header"><h1>{mainData[0].title}</h1></div>
                                     <div className="main-project-txt">{mainData[0].description}</div>
                                     <div className="main-project-tech">

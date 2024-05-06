@@ -94,6 +94,7 @@ nav{
   flex-direction: row;
   justify-content: space-between;
   width: 100%;
+  align-items:center;
 }
 
 .nav-content p{
@@ -363,8 +364,23 @@ nav{
 
 .main-project-header{
   font-size: 20px;
-  color: #ccd6f6;
+  color: #64ffda;
   margin-bottom: 1rem;
+  text-align: start;
+}
+
+.main-project-header-icon{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.main-links{
+  display: flex;
+  width: 26%;
+  justify-content: space-evenly;
+  transition: all .25s ease;;
 }
 
 .main-project-txt{
@@ -435,7 +451,7 @@ nav{
   width: 100%;
 }
 
-.rest-project-header p svg{
+.rest-project-header p svg, .main-project-header-icon p svg{
   width: 30px;
   height: 30px;
   color: #64ffda;
@@ -475,16 +491,16 @@ nav{
   transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
 }
 
-.rest-links a{
+.rest-links a, .main-links a{
   text-decoration: none;
   color: #ccd6f6;
 }
 
-.rest-links a:hover{
+.rest-links a:hover , .main-links a:hover{
   color: #64ffda;
 }
 
-.rest-links a svg{
+.rest-links a svg, .main-links a svg{
   width: 25px;
   height: 25px;
 }
