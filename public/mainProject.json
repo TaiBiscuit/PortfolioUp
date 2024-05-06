@@ -20,7 +20,7 @@
         "description":"Screen recorder made with Electron which allows you to choose the output of the recorder data.",
         "img":"https://i.ibb.co/f88488d/start.png%20alt=",
         "live":"https://taibiscuit.github.io/recorder-download-page/",
-        "github":"https://github.com/TaiBiscuit/recorder-download-page",
+        "github":"https://github.com/TaiBiscuit/Electron-Screen-Recorder",
         "tech":[
             "Electron",
             "Javascript"
@@ -33,7 +33,7 @@
         "description":"Landing page for a mock-up hotel made in React with multiple handeling multiple languages.",
         "img":"https://i.ibb.co/br8Vcfm/hotela.png",
         "live":"https://hotelwebdemo.netlify.app/",
-        "github":"https://github.com/TaiBiscuit/HotelDemos",
+        "github":"https://github.com/TaiBiscuit/HotelDemo",
         "tech":[
             "React Js",
             "CSS"

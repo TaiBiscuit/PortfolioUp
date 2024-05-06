@@ -9,7 +9,7 @@ export const Contact = () => {
         <>
         <div>
         <div className="sep" id='contact'></div>  
-            <div className="div-content projects">
+            <div className="div-content-contact projects">
                 <h2 className="section-sub">- Get in touch
                 </h2>
                 <div className="contact-rest">

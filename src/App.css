@@ -197,6 +197,12 @@ nav{
   max-width: 900px;
 }
 
+.div-content-contact{
+  margin: 0px auto;
+  max-width: 900px;
+  margin-bottom: 8rem;
+}
+
 .section-sub{
   display: flex;
   -moz-box-align: center;
@@ -312,11 +318,16 @@ nav{
   margin: 3rem 0;
 }
 
+.main-projects a{
+  text-decoration: none;
+}
+
 .project-1, .project-2, .project-3{
   display: flex;
   flex-direction: row;
   justify-content: center;
   transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
+  cursor: pointer;
 }
 
 .left-side-1, .left-side-2, .left-side-3, .right-side-1, .right-side-2, .right-side-3 { 
@@ -374,6 +385,7 @@ nav{
   justify-content: space-between;
   align-items: center;
   width: 100%;
+  margin: 1rem 0;
 }
 
 .main-links{
@@ -387,8 +399,8 @@ nav{
   text-align: start;
   color: #a8b2d1;
   word-wrap: break-word;
-  width: 220px;
-  margin-bottom: 3rem;
+  width: 385px;
+  margin-bottom: 4rem;
 }
 
 .main-project-img{
@@ -510,9 +522,7 @@ nav{
 
 /* CONTACT */
 
-.contact-rest{
-  height: 100vh;
-}
+
 
 .contact-top{
   height: 50vh;
