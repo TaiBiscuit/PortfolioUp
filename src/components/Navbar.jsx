@@ -12,7 +12,7 @@ export const Navbar = () => {
                         <a href="#about" className='nav-a'>About me</a>
                         <a href="#projects" className='nav-a'>Projects</a>
                         <a href="#contact" className='nav-a'>Contact</a>
-                        <button className="nav-btn">Resume</button>
+                        <a href="./assets/CV-NICO-EN.pdf" download className='nav-a'><button className="nav-btn">Resume</button></a>
                     </ol>
                 </div>
             </div>

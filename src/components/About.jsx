@@ -19,7 +19,7 @@ export const About = () => {
                         </p>
                         </div> */}
                     </div>
-                    <img src="https://avatars.githubusercontent.com/u/113484831?v=4" alt="" className='about-img'/>
+                    <img src="https://i.ibb.co/FmDrdbZ/1kjh-1.png" alt="" className='about-img'/>
                 </div>
             </div>
         </div>
