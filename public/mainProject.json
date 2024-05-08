@@ -18,7 +18,7 @@
         "key":2,
         "title":"Screen Recorder",
         "description":"Screen recorder made with Electron which allows you to choose the output of the recorder data.",
-        "img":"https://i.ibb.co/f88488d/start.png%20alt=",
+        "img":"https://i.ibb.co/TKR8FG3/program.png",
         "live":"https://taibiscuit.github.io/recorder-download-page/",
         "github":"https://github.com/TaiBiscuit/Electron-Screen-Recorder",
         "tech":[
