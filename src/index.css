@@ -27,17 +27,36 @@
 
 @media only screen and (max-width:489px){
 
+  #root{
+    padding: 0;
+  }
+
+  .main-container{
+    padding: 0 2rem 2rem 2rem;
+  }
+
   nav{
+    display: none;
+  }
+
+  .navb{
+    display: flex;
     padding: 0px 0px;
+    background-color: #0a192f;
   }
   
   .nav-content{
     flex-direction: column;
+    padding: 1rem;
+  }
+
+  .nav-btn{
+    margin-top: 1rem;
   }
 
   .home{
-    margin-top: 3rem;
-    min-height: 63vh;
+    margin-bottom: 3rem;
+    min-height: 79vh;
     justify-content: center;
   }
 
@@ -71,6 +90,46 @@
 
   .sep{
     height: 2vh;
+  }
+
+  .project-1, .project-2, .project-3{
+    flex-direction: column;
+  }
+
+  .right-side-1, .left-side-2, .right-side-3{
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .main-project-txt{
+    word-wrap: normal;
+    width: auto;
+  }
+
+  .project-2{
+    flex-direction: column-reverse;
+  }
+
+  .left-side-1, .left-side-2, .left-side-3, .right-side-1, .right-side-2, .right-side-3 { 
+    width: 100%;
+    margin-bottom: 2rem;
+    transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
+  }
+
+  .left-side-1, .left-side-3, .right-side-2{
+    height: 250px;
+  }
+
+  .main-project-header{
+    font-size: 22px;
+  }
+
+  .main-project-header h1{
+    font-size: 22px;
+  }
+
+  .nav-content{
+    background-color: #0a192f;
   }
 }
 
