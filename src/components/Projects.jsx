@@ -39,7 +39,7 @@ export const Projects = () => {
             <div className="div-content projects">
                 <h2 className="section-sub">- Projects</h2>
                 <p></p>
-                <h2 className="section-sub-3">Some of my main projects</h2>
+                <h2 className="section-sub-3">Front end related projects</h2>
                 <div className="main-projects">
                     {
                         mainData && mainData.length>0 ?
